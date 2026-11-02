@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TECHZONE — Texnika do‘koni</title>
+  <style>
+*{box-sizing:border-box;margin:0;padding:0} :root{--ink:#141820;--muted:#737987;--purple:#6957e8;--pale:#f5f4ff;--line:#e9eaf0} body{font-family:Inter,Arial,sans-serif;color:var(--ink);background:#fff} a{text-decoration:none;color:inherit} button{font:inherit;cursor:pointer;border:0;background:none}.announcement{background:#171923;color:#fff;text-align:center;padding:10px 15px;font-size:12px;letter-spacing:.2px}.header{height:82px;display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:auto;padding:0 24px}.logo{font-size:23px;font-weight:800;letter-spacing:-1px}.logo span:first-child{color:var(--purple)}.logo .dot{color:#ff9c58}.header nav{display:flex;gap:32px;color:#626776;font-size:13px}.header nav a:hover,.text-link:hover{color:var(--purple)}.header-actions{display:flex;align-items:center;gap:15px}.icon-btn{font-size:28px}.cart-btn{background:#f5f5f8;padding:11px 15px;border-radius:12px;font-size:13px}.cart-btn b{background:var(--purple);color:white;border-radius:50%;padding:3px 7px;margin-left:8px;font-size:11px}.menu-btn{display:none}.search-wrap{display:none;max-width:1150px;margin:0 auto 14px;padding:0 24px}.search-wrap.show{display:flex}.search-wrap input{width:100%;padding:14px;border:1px solid var(--line);border-radius:10px;outline-color:var(--purple)}.search-wrap button{padding:0 12px}.hero{max-width:1200px;margin:10px auto 0;padding:58px 55px;min-height:480px;border-radius:28px;background:linear-gradient(115deg,#f4f2ff 0%,#f8f7ff 55%,#ece9ff 100%);display:grid;grid-template-columns:1.05fr .95fr;align-items:center;overflow:hidden;position:relative}.eyebrow{font-size:10px;font-weight:800;letter-spacing:2px;color:var(--purple);margin-bottom:18px}.eyebrow span{display:inline-block;width:7px;height:7px;border-radius:50%;background:#ff9c58;margin-right:7px}.hero h1{font-size:clamp(38px,5vw,58px);line-height:1.12;letter-spacing:-2.8px;font-weight:800}.hero h1 em{font-style:normal;color:var(--purple)}.hero-copy>p{color:#737987;max-width:430px;line-height:1.8;font-size:14px;margin:20px 0 27px}.primary-btn{display:inline-flex;align-items:center;gap:24px;background:var(--purple);color:#fff;padding:15px 20px;border-radius:11px;font-size:13px;font-weight:700;box-shadow:0 8px 20px #6957e833;transition:.2s}.primary-btn:hover{transform:translateY(-2px);background:#5745d5}.hero-stats{display:flex;gap:32px;margin-top:40px}.hero-stats div{display:flex;flex-direction:column;gap:5px}.hero-stats strong{font-size:20px}.hero-stats small{font-size:10px;color:#858997}.hero-visual{height:360px;position:relative;display:flex;align-items:center;justify-content:center}.hero-orb{position:absolute;width:340px;height:340px;background:linear-gradient(145deg,#d8d2ff,#a99cff);border-radius:50%;right:10px}.hero-visual img{position:relative;z-index:1;max-width:95%;max-height:360px;object-fit:contain;filter:drop-shadow(0 25px 22px #4a3f7b33);mix-blend-mode:multiply}.hero-label{position:absolute;z-index:2;right:4px;top:18px;background:#fff;padding:12px 17px;border-radius:12px;font-size:9px;letter-spacing:1px;box-shadow:0 8px 25px #39305b16}.hero-label b{font-size:14px}.floating-card{position:absolute;bottom:20px;left:0;z-index:3;background:#fff;border-radius:14px;padding:13px 17px;display:flex;gap:12px;align-items:center;box-shadow:0 12px 35px #37305b17}.floating-card>span{color:#ff9c58;font-size:22px}.floating-card div{display:flex;flex-direction:column;gap:5px}.floating-card b{font-size:11px}.floating-card small{font-size:10px;color:var(--muted)}.benefits{max-width:1100px;margin:30px auto 75px;padding:0 24px;display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.benefits>div{display:flex;align-items:center;gap:13px;padding:18px;border:1px solid var(--line);border-radius:14px}.benefits>div>span{width:40px;height:40px;display:grid;place-items:center;background:var(--pale);border-radius:12px;font-size:18px;color:var(--purple)}.benefits p{display:flex;flex-direction:column;gap:6px}.benefits b{font-size:11px}.benefits small{font-size:10px;color:var(--muted)}.products-section{max-width:1200px;margin:0 auto;padding:0 24px 80px}.section-head{display:flex;justify-content:space-between;align-items:end}.section-head .eyebrow{margin-bottom:10px}.section-head h2,.promo h2{font-size:32px;letter-spacing:-1.2px}.text-link{font-size:12px;font-weight:700;color:var(--purple);padding-bottom:6px}.filters{display:flex;gap:10px;margin:28px 0}.filter{padding:11px 17px;border:1px solid var(--line);border-radius:9px;font-size:11px;color:#6c7180}.filter.active,.filter:hover{background:var(--purple);color:white;border-color:var(--purple)}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product-card{border:1px solid var(--line);border-radius:17px;overflow:hidden;transition:.25s;position:relative}.product-card:hover{transform:translateY(-5px);box-shadow:0 15px 35px #1b1c2b0d}.product-image{height:210px;background:#f7f7fb;display:flex;align-items:center;justify-content:center;position:relative;padding:20px}.product-image img{max-width:100%;max-height:170px;object-fit:contain;mix-blend-mode:multiply}.sale{position:absolute;top:14px;left:14px;background:#ffede6;color:#ed7549;border-radius:6px;padding:6px 8px;font-size:9px;font-weight:800}.heart{position:absolute;right:13px;top:13px;color:#9296a2;font-size:20px}.heart.liked{color:#ed6480}.product-info{padding:17px}.product-info .category{font-size:9px;color:#9a9eaa;text-transform:uppercase;letter-spacing:1px}.product-info h3{font-size:13px;margin:8px 0 10px}.rating{font-size:10px;color:#f5a623;margin-bottom:13px}.rating span{color:#8c909d;margin-left:5px}.price-row{display:flex;align-items:center;justify-content:space-between}.price{font-size:14px;font-weight:800}.old-price{font-size:10px;color:#a6a9b2;text-decoration:line-through;margin-left:5px}.add-btn{width:35px;height:35px;background:var(--pale);color:var(--purple);border-radius:10px;font-size:20px}.add-btn:hover{background:var(--purple);color:#fff}.promo{max-width:1152px;margin:0 auto 80px;background:#191b29;border-radius:25px;padding:45px 55px;color:#fff;display:flex;align-items:center;justify-content:space-between;position:relative;overflow:hidden}.promo .eyebrow{color:#b4aaff}.promo h2{font-size:36px;line-height:1.2}.promo p{font-size:12px;line-height:1.8;color:#b7bac5;max-width:300px;margin:15px 0 22px}.promo-art{width:40%;height:230px;position:relative;display:flex;align-items:center;justify-content:center}.promo-circle{position:absolute;width:240px;height:240px;border-radius:50%;background:#6657d9}.promo-art img{z-index:1;max-height:230px;max-width:100%;object-fit:contain}.promo-tag{position:absolute;right:30px;top:25px;background:#ff9b58;color:#171923;border-radius:12px;padding:12px 17px;font-size:22px;font-weight:800;transform:rotate(8deg)}.promo-tag small{display:block;font-size:8px;letter-spacing:1px}footer{border-top:1px solid var(--line);padding:35px 24px;text-align:center}footer p{font-size:12px;color:var(--muted);margin:10px}footer small{font-size:10px;color:#a0a3ad}.overlay{position:fixed;inset:0;background:#10121a77;z-index:20;opacity:0;visibility:hidden;transition:.25s}.overlay.show{opacity:1;visibility:visible}.cart-panel{position:fixed;right:-420px;top:0;height:100vh;width:min(400px,100%);background:#fff;z-index:21;padding:25px;display:flex;flex-direction:column;transition:.3s}.cart-panel.open{right:0}.cart-head{display:flex;justify-content:space-between;align-items:center;padding-bottom:20px;border-bottom:1px solid var(--line)}.cart-head h3{font-size:20px}.cart-head button{font-size:20px}.cart-items{overflow:auto;flex:1}.cart-empty{text-align:center;color:var(--muted);font-size:13px;padding:60px 10px}.cart-item{display:flex;gap:12px;padding:16px 0;border-bottom:1px solid var(--line)}.cart-item img{width:70px;height:70px;object-fit:contain;background:#f7f7fb;border-radius:10px}.cart-item-info{flex:1}.cart-item-info b{font-size:12px;display:block;margin:4px 0 8px}.cart-item-info strong{font-size:12px;color:var(--purple)}.qty{display:flex;align-items:center;gap:10px;margin-top:8px}.qty button{background:#f1f1f7;border-radius:5px;width:23px;height:23px}.cart-bottom{padding-top:20px;border-top:1px solid var(--line)}.cart-bottom>div{display:flex;justify-content:space-between;margin-bottom:16px;font-size:13px}.cart-bottom strong{font-size:17px}.checkout{width:100%;justify-content:center}.toast{position:fixed;bottom:25px;left:50%;transform:translate(-50%,20px);background:#171923;color:#fff;padding:13px 20px;border-radius:10px;font-size:12px;opacity:0;transition:.25s;z-index:30;pointer-events:none}.toast.show{opacity:1;transform:translate(-50%,0)}@media(max-width:900px){.hero{margin:10px 18px;padding:40px 30px}.hero-visual{height:300px}.hero-orb{width:270px;height:270px}.hero-stats{gap:18px}.benefits{grid-template-columns:repeat(2,1fr);margin-bottom:55px}.product-grid{grid-template-columns:repeat(2,1fr)}.promo{margin:0 18px 60px;padding:35px}.header nav{gap:17px}.product-image{height:190px}}@media(max-width:620px){.announcement{font-size:10px}.header{height:70px;padding:0 18px}.header nav{display:none;position:absolute;top:70px;left:0;right:0;background:white;padding:20px;z-index:10;flex-direction:column;box-shadow:0 10px 20px #0000000a}.header nav.open{display:flex}.menu-btn{display:block;font-size:21px}.cart-btn span{display:none}.header-actions{gap:9px}.hero{grid-template-columns:1fr;padding:35px 25px 20px;margin:8px 12px;border-radius:20px}.hero h1{font-size:39px}.hero-copy>p{font-size:12px}.hero-stats{margin-top:28px}.hero-visual{height:250px;margin-top:10px}.hero-orb{width:220px;height:220px;right:25px}.hero-visual img{max-height:240px}.hero-label{right:0;top:10px}.floating-card{bottom:7px}.benefits{padding:0 12px;gap:9px;margin:20px auto 50px}.benefits>div{padding:12px 9px;gap:8px}.benefits>div>span{width:32px;height:32px;font-size:14px}.benefits b{font-size:9px}.benefits small{font-size:8px}.products-section{padding:0 15px 55px}.section-head h2{font-size:24px}.text-link{font-size:10px}.filters{overflow:auto;margin:20px 0;white-space:nowrap}.filter{flex-shrink:0;padding:10px 13px}.product-grid{gap:12px}.product-image{height:155px;padding:12px}.product-image img{max-height:130px}.product-info{padding:12px}.product-info h3{font-size:11px}.price{font-size:12px}.add-btn{width:30px;height:30px}.promo{margin:0 12px 45px;padding:30px 25px}.promo h2{font-size:29px}.promo-art{position:absolute;right:0;bottom:0;width:40%;opacity:.5}.promo-tag{right:15px;top:15px;font-size:17px;padding:9px 12px}.promo p{max-width:230px}footer{padding:28px 15px}}
+  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="announcement">🚚 Toshkent bo‘ylab bepul yetkazib berish — 500 000 so‘mdan yuqori xaridlar uchun</div>
+  <header class="header">
+    <a class="logo" href="#"><span>TECH</span>ZONE<span class="dot">.</span></a>
+    <nav>
+      <a href="#home">Bosh sahifa</a><a href="#products">Mahsulotlar</a><a href="#about">Biz haqimizda</a>
+    </nav>
+    <div class="header-actions">
+      <button class="icon-btn" id="searchToggle" aria-label="Qidirish">⌕</button>
+      <button class="cart-btn" id="cartToggle">🛒 <span>Savat</span><b id="cartCount">0</b></button>
+      <button class="menu-btn" id="menuToggle">☰</button>
+    </div>
+  </header>
+  <div class="search-wrap" id="searchWrap"><input id="searchInput" placeholder="Mahsulot qidirish..." /><button id="searchClose">✕</button></div>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> YANGI AVLOD TEXNIKASI</div>
+        <h1>Texnologiya bilan<br><em>oldinda bo‘ling.</em></h1>
+        <p>Eng so‘nggi gadjetlar, ishonchli sifat va siz uchun qulay narxlar — barchasi bir joyda.</p>
+        <a class="primary-btn" href="#products">Xaridni boshlash <span>↗</span></a>
+        <div class="hero-stats"><div><strong>10K+</strong><small>Mamnun mijoz</small></div><div><strong>500+</strong><small>Mahsulot turi</small></div><div><strong>4.9/5</strong><small>Mijozlar bahosi</small></div></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-orb"></div>
+        <div class="hero-label">YANGI<br><b>IPHONE 16</b></div>
+        <img src="https://images.unsplash.com/photo-1592750651405-0e3d9d8b6b3f?auto=format&fit=crop&w=900&q=85" alt="Smartfon" onerror="this.style.display='none'">
+        <div class="floating-card"><span>✦</span><div><b>Premium sifat</b><small>Original mahsulotlar</small></div></div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div><span>🚚</span><p><b>Tez yetkazib berish</b><small>1–2 ish kuni ichida</small></p></div>
+      <div><span>🛡️</span><p><b>Rasmiy kafolat</b><small>Har bir mahsulotga</small></p></div>
+      <div><span>↩</span><p><b>Oson qaytarish</b><small>14 kun ichida</small></p></div>
+      <div><span>♡</span><p><b>24/7 yordam</b><small>Har doim aloqadamiz</small></p></div>
+    </section>
+
+    <section class="products-section" id="products">
+      <div class="section-head"><div><div class="eyebrow">BIZNING TANLOV</div><h2>Ommabop mahsulotlar</h2></div><a href="#products" class="text-link">Barchasini ko‘rish ↗</a></div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-category="all">Barchasi</button>
+        <button class="filter" data-category="phone">Smartfonlar</button>
+        <button class="filter" data-category="laptop">Noutbuklar</button>
+        <button class="filter" data-category="audio">Audio</button>
+        <button class="filter" data-category="accessory">Aksessuarlar</button>
+      </div>
+      <div class="product-grid" id="productGrid"></div>
+    </section>
+
+    <section class="promo" id="about">
+      <div><div class="eyebrow">MAXSUS TAKLIF</div><h2>Yangiliklar sizni<br>kutmoqda.</h2><p>Texnika olamidagi eng yaxshi takliflarni birinchilardan bo‘lib oling.</p><a href="#products" class="primary-btn">Takliflarni ko‘rish ↗</a></div>
+      <div class="promo-art"><div class="promo-circle"></div><img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" alt="" onerror="this.style.display='none'"></div>
+      <div class="promo-tag">-20%<small>CHEGIRMA</small></div>
+    </section>
+  </main>
+
+  <footer><a class="logo" href="#"><span>TECH</span>ZONE<span class="dot">.</span></a><p>Texnologiya — hayotingizni osonlashtiradi.</p><small>© 2026 TECHZONE. Barcha huquqlar himoyalangan.</small></footer>
+
+  <div class="overlay" id="overlay"></div>
+  <aside class="cart-panel" id="cartPanel"><div class="cart-head"><h3>Savatingiz</h3><button id="cartClose">✕</button></div><div id="cartItems" class="cart-items"></div><div class="cart-bottom"><div><span>Jami:</span><strong id="cartTotal">0 so‘m</strong></div><button class="primary-btn checkout" id="checkout">Buyurtma berish ↗</button></div></aside>
+  <div class="toast" id="toast"></div>
+  <script>
+const products = [
+ {id:1,name:"iPhone 16 Pro",category:"phone",label:"Smartfon",price:14999000,old:15999000,rating:"4.9",image:"https://images.unsplash.com/photo-1592750651405-0e3d9d8b6b3f?auto=format&fit=crop&w=600&q=80",sale:"-6%"},
+ {id:2,name:"MacBook Air M3",category:"laptop",label:"Noutbuk",price:16999000,old:18499000,rating:"4.8",image:"https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80",sale:"-8%"},
+ {id:3,name:"AirPods Pro 2",category:"audio",label:"Audio",price:3299000,old:3799000,rating:"4.9",image:"https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?auto=format&fit=crop&w=600&q=80",sale:"-13%"},
+ {id:4,name:"Smart Watch Series 9",category:"accessory",label:"Aksessuar",price:4599000,old:5199000,rating:"4.7",image:"https://images.unsplash.com/photo-1544117519-31a4b719223d?auto=format&fit=crop&w=600&q=80",sale:"-12%"},
+ {id:5,name:"Samsung Galaxy S24",category:"phone",label:"Smartfon",price:11999000,old:12999000,rating:"4.8",image:"https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?auto=format&fit=crop&w=600&q=80",sale:"-8%"},
+ {id:6,name:"Gaming Laptop",category:"laptop",label:"Noutbuk",price:18999000,old:20999000,rating:"4.8",image:"https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=600&q=80",sale:"-10%"},
+ {id:7,name:"Wireless Headphones",category:"audio",label:"Audio",price:1299000,old:1599000,rating:"4.6",image:"https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80",sale:"-19%"},
+ {id:8,name:"Portable Speaker",category:"accessory",label:"Aksessuar",price:899000,old:1099000,rating:"4.7",image:"https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?auto=format&fit=crop&w=600&q=80",sale:"-18%"}
+];
+const money = n => n.toLocaleString("uz-UZ") + " so‘m";
+let cart = [];
+let currentCategory = "all";
+let searchTerm = "";
+const grid = document.getElementById("productGrid");
+
+function renderProducts(){
+ const list = products.filter(p => (currentCategory==="all"||p.category===currentCategory) && p.name.toLowerCase().includes(searchTerm.toLowerCase()));
+ grid.innerHTML = list.length ? list.map(p=>`<article class="product-card">
+  <div class="product-image"><span class="sale">${p.sale}</span><button class="heart" aria-label="Sevimlilar">♡</button><img src="${p.image}" alt="${p.name}" onerror="this.src='https://placehold.co/400x300/f3f2ff/6957e8?text=TECHZONE'"></div>
+  <div class="product-info"><div class="category">${p.label}</div><h3>${p.name}</h3><div class="rating">★★★★★ <span>${p.rating} (128)</span></div>
+  <div class="price-row"><div><span class="price">${money(p.price)}</span><span class="old-price">${money(p.old)}</span></div><button class="add-btn" data-add="${p.id}" aria-label="Savatga qo‘shish">+</button></div></div></article>`).join("") : `<p>Mahsulot topilmadi.</p>`;
+}
+function renderCart(){
+ document.getElementById("cartCount").textContent=cart.reduce((s,i)=>s+i.qty,0);
+ document.getElementById("cartItems").innerHTML=cart.length?cart.map(i=>`<div class="cart-item"><img src="${i.image}" alt=""><div class="cart-item-info"><b>${i.name}</b><strong>${money(i.price)}</strong><div class="qty"><button data-qty="${i.id}" data-step="-1">−</button><span>${i.qty}</span><button data-qty="${i.id}" data-step="1">+</button></div></div><button data-remove="${i.id}">✕</button></div>`).join(""):`<div class="cart-empty">🛍️<br><br>Savatingiz hozircha bo‘sh</div>`;
+ document.getElementById("cartTotal").textContent=money(cart.reduce((s,i)=>s+i.price*i.qty,0));
+}
+function toast(msg){const el=document.getElementById("toast");el.textContent=msg;el.classList.add("show");setTimeout(()=>el.classList.remove("show"),2000)}
+function openCart(){document.getElementById("cartPanel").classList.add("open");document.getElementById("overlay").classList.add("show")}
+function closeCart(){document.getElementById("cartPanel").classList.remove("open");document.getElementById("overlay").classList.remove("show")}
+grid.addEventListener("click",e=>{
+ const add=e.target.closest("[data-add]"); if(add){const p=products.find(x=>x.id===+add.dataset.add);const found=cart.find(x=>x.id===p.id);found?found.qty++:cart.push({...p,qty:1});renderCart();toast("Mahsulot savatga qo‘shildi!")}
+ const heart=e.target.closest(".heart");if(heart){heart.classList.toggle("liked");heart.textContent=heart.classList.contains("liked")?"♥":"♡"}
+});
+document.getElementById("filters").addEventListener("click",e=>{const b=e.target.closest(".filter");if(!b)return;document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");currentCategory=b.dataset.category;renderProducts()});
+document.getElementById("cartToggle").onclick=openCart;document.getElementById("cartClose").onclick=closeCart;document.getElementById("overlay").onclick=closeCart;
+document.getElementById("cartItems").addEventListener("click",e=>{const q=e.target.closest("[data-qty]");const r=e.target.closest("[data-remove]");if(q){const item=cart.find(i=>i.id===+q.dataset.qty);item.qty+=+q.dataset.step;if(item.qty<=0)cart=cart.filter(i=>i.id!==item.id);renderCart()}if(r){cart=cart.filter(i=>i.id!==+r.dataset.remove);renderCart()}});
+document.getElementById("checkout").onclick=()=>{if(!cart.length){toast("Avval savatga mahsulot qo‘shing");return}toast("Buyurtma uchun telefon orqali bog‘laning");};
+document.getElementById("searchToggle").onclick=()=>{document.getElementById("searchWrap").classList.toggle("show");document.getElementById("searchInput").focus()};
+document.getElementById("searchClose").onclick=()=>{document.getElementById("searchWrap").classList.remove("show");searchTerm="";document.getElementById("searchInput").value="";renderProducts()};
+document.getElementById("searchInput").addEventListener("input",e=>{searchTerm=e.target.value;renderProducts()});
+document.getElementById("menuToggle").onclick=()=>document.querySelector(".header nav").classList.toggle("open");
+renderProducts();renderCart();
+
+  </script>
+</body>
+</html>
